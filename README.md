@@ -1,2 +1,44 @@
-# ToshibaSatelliteA100-WebRevivalMachine
-Renewing A 2006 Toshiba Satellite A100 709 Into A Retro Late 1990s and Early 2000s Macine Running HaikuOS For Web Browsing Web Revival Personal Websites, Homepages, and Chat Rooms, Lightweight Programming, and A Media Player For My Old DVD Collection
+# 2006 Toshiba Sattelite A100-709 Retro Web Revival Machine.
+
+Hi and Welcome To My Repo!
+
+Considering You're Seeing This You Probably Also Want To Repurpose A Really Old Laptop/Computer Into A Retro-Themed 1990s/2000s Web Revival Machine, and If So, This Is the Correct Guide For you!
+
+I will Be Documenting The Entire Process Along The Way. 
+
+## Specs
+
+Intel Core(R) Core 2 Duo T2500 @2.0 Ghz 
+
+1038976KB or Roughly 1GB (1,014.625 MB) DDR2 and a 500GB HDD.
+
+Haiku R1beta6 (x86_gcc2h)
+
+## Main Goals:
+*PS: I Might add or remove goals along the process. However until I have the machine described, I will live update this repo and readme.
+I also might upgrade to an SSD, add RAM, upgrade CPU, a new higher-capacity battery, and a better screen. There is no Limit to how much I mod this*
+
+
+Make A Fully Function Retro Late 1990s/Early 2000s Themed Machine With HaikuOS 
+
+
+Install a Suitable Browser To Be Used For Web Browsing Creative & Cool Web Revival Personal Websites, Homepages, and Chat Rooms.
+
+
+Setup a Smooth Media Playing Experience For Watching Movies&Tv From My Old DVD Collection
+
+
+Setup and Configure a Lightweight IDE For a Smooth and Lightweight Programming Experience. 
+
+## Why HaikuOS?
+Haiku OS is the perfect fit for this project because it combines a fast, lightweight retro aesthetic with modern capabilities, allowing our vintage computer to smoothly browse web revival sites, play DVDs, and run efficient programming tools.
+
+
+For further info, see [haiku-os.org.about](https://www.haiku-os.org/about/) for an overview of haikuOS and [haiku-os.org/about/faq/](https://www.haiku-os.org/about/faq/) for frequently asked questions.
+
+
+## OS Install Guide:
+Go to the [download page](https://www.haiku-os.org/get-haiku/r1beta6/) and scroll down to the torrent section.
+
+
+If you're computer is low speced and very old like mine, download the haiku-r1beta6-x86_gcc2h.torrent. Otherwise if you're sure your computer supports 64bit operating systems well, download haiku-r1beta6-x86_64.torrent.
