@@ -38,7 +38,17 @@ For further info, see [haiku-os.org.about](https://www.haiku-os.org/about/) for 
 
 
 ## OS Install Guide:
-Go to the [download page](https://www.haiku-os.org/get-haiku/r1beta6/) and scroll down to the torrent section.
+Go to the [download page](https://www.haiku-os.org/get-haiku/r1beta6/) on your main computer and scroll down to the torrent section.
 
 
-If you're computer is low speced and very old like mine, download the haiku-r1beta6-x86_gcc2h.torrent. Otherwise if you're sure your computer supports 64bit operating systems well, download haiku-r1beta6-x86_64.torrent.
+If you're computer is low speced and very old like mine, download the haiku-r1beta6-x86_gcc2h.torrent. Otherwise, if you're sure your computer supports 64bit operating systems well, download haiku-r1beta6-x86_64.torrent.
+
+
+If you haven't already, download qbittorrent to download the ISO. Don't forget to seed afterwards.
+
+
+Now that the download is complete and you seeded it, you can flash the iso onto your USB flash drive through Balena Etcher or the terminal if you're on linux:
+
+    sudo dd if=./haiku-r1beta6-x86_gcc2h-anyboot.iso of=/dev/sda bs=4M conv=fsync status=progress
+
+When you're done flashing, simply plug in the flash drive into the computer you want to renew, enter the boot selection menu, and select the flash drive
