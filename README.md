@@ -51,4 +51,9 @@ Now that the download is complete and you seeded it, you can flash the iso onto 
 
     sudo dd if=./haiku-r1beta6-x86_gcc2h-anyboot.iso of=/dev/sda bs=4M conv=fsync status=progress
 
-When you're done flashing, simply plug in the flash drive into the computer you want to renew, enter the boot selection menu, and select the flash drive
+When you're done flashing, simply plug in the flash drive into the computer you want to renew, enter the boot selection menu, and select the flash drive.
+
+Next, select your preferred language of choice, and after you can try it out through the live system or just download it on your hard drive. 
+
+
+*Note: installing haikuOS on your hard drive/SSD will delete everything you had on it so make sure all your important data is backed up*
