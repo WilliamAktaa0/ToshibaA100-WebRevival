@@ -47,13 +47,23 @@ If you're computer is low speced and very old like mine, download the haiku-r1be
 If you haven't already, download qbittorrent to download the ISO. Don't forget to seed afterwards.
 
 
-Now that the download is complete and you seeded it, you can flash the iso onto your USB flash drive through Balena Etcher or the terminal if you're on linux:
+Now that the download is complete and you seeded it, you can flash the iso onto your USB flash drive through something like Balena Etcher or the terminal if you're on linux:
 
     sudo dd if=./haiku-r1beta6-x86_gcc2h-anyboot.iso of=/dev/sda bs=4M conv=fsync status=progress
 
 When you're done flashing, simply plug in the flash drive into the computer you want to renew, enter the boot selection menu, and select the flash drive.
 
-Next, select your preferred language of choice, and after you can try it out through the live system or just download it on your hard drive. 
+
+Next, select your preferred language of choice, and after you can try it out through the live system or just directly download it on your hard drive by following this simple [guide](https://www.haiku-os.org/get-haiku/installation-guide/)
 
 
 *Note: installing haikuOS on your hard drive/SSD will delete everything you had on it so make sure all your important data is backed up*
+
+
+If you chose to test the live system and you're looking to install it on your hard drive, simply click the top right blue feather icon, go to "Applications", and open "Installer". 
+
+
+Simply follow the [haiku install guide](https://www.haiku-os.org/get-haiku/installation-guide/).
+
+
+## Post Install Guide:
